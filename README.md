@@ -29,17 +29,16 @@ This project is a web application built with React (frontend) and Python (backen
 
 ### Prerequisites
 
-- **Node.js** (for React frontend)
+- **React.js** (for React frontend)
 - **Python** (for the backend API)
-- **Backend Framework** (Flask or Django)
-- **Database** (if applicable, depending on your backend setup)
+
 
 ### Frontend Setup (React)
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/financial-data-filtering.git
-   cd financial-data-filtering/frontend
+   git clone https://github.com/mathew180/financialdatafiltering.git
+   cd financialdatafiltering
    ```
 
 2. Install dependencies:
@@ -58,8 +57,8 @@ This project is a web application built with React (frontend) and Python (backen
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/financial-data-filtering.git
-   cd financial-data-filtering/backend
+   git clone https://github.com/mathew180/financialdatafiltering.git
+   cd financialdatafiltering/backend
    ```
 
 2. Install the necessary Python dependencies:
