@@ -1,0 +1,67 @@
+/* Add this to the top of your App.css file */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* General Background and Text Styles */
+body {
+  background-color: #f0f0f0; /* Light Gray Background */
+  color: #333; /* Dark Text Color */
+  font-family: Roboto, sans-serif;
+}
+
+/* Table and Header Styles */
+table {
+  background-color: #ffffff; /* White Background for Table */
+}
+
+th {
+  background-color:rgb(2, 20, 70); /* Blue Header Background */
+  color: white; /* White Text in Header */
+}
+
+td {
+  background-color: #f9f9f9; /* Light Gray for Table Cells */
+  color: #333; /* Dark Text Color in Cells */
+}
+
+/* Input Fields Styles */
+input[type="number"] {
+  background-color: #ffffff; /* White Background */
+  color: #333; /* Dark Text Color */
+  border: 1px solid #ccc; /* Light Gray Border */
+  border-radius: 4px;
+  
+  /* Padding inside the input fields */
+  /* Add margin to create spacing between input fields */
+}
+
+/* Add spacing between input fields */
+input[type="number"]:not(:last-child) {
+  margin-right: 20px; /* Horizontal spacing between inputs */
+}
+
+/* Focus Effect for Input Fields */
+input[type="number"]:focus {
+  border-color: #3498db; /* Blue Border on Focus */
+  outline: none; /* Remove default focus outline */
+}
+
+/* Hover Effect for Table Rows */
+tr:hover {
+  background-color: #f1f1f1; /* Light Gray Hover Effect for Rows */
+}
+
+/* Loader Spinner */
+.spinner {
+  border: 4px solid #f3f3f3; /* Light gray background for spinner */
+  border-top: 4px solid #3498db; /* Blue Spinner */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+}
+
+/* Spinner Animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
