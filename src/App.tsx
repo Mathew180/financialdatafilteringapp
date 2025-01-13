@@ -3,7 +3,7 @@ import './App.css';
 import axios from 'axios';
 
 // Change the API URL to your backend
-const API_URL = 'https://fianancialdatafilterapi.vercel.app/get-financial-data/';
+const API_URL = 'https://fianancialdatafilterapi.onrender.com/get-financial-data/';
 
 interface DataRow {
   date: string;
